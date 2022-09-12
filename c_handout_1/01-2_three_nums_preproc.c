@@ -1,3 +1,8 @@
+/* 
+** 輸入三個整數 a、b、c，印出此三值的最大值、最小值、總和及平均值
+** Usage : $ main int1 int2 int3
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX(a, b, c) (((a) > (b))? ((a) > (c))? (a) : (c) : ((b) > (c))? (b) : (c))
