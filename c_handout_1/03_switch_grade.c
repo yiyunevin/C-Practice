@@ -7,6 +7,7 @@
 ** ----------------------------------------------------------
 ** 1 * scanf
 ** 2 * group the grades
+** *** test with online GDB
 */
 
 #include <stdio.h>
@@ -15,7 +16,7 @@ int main()
     int score;
     printf("Enter score: ");
     scanf("%d", &score);
-    
+
     switch(score/10)
     {
         case 10:
