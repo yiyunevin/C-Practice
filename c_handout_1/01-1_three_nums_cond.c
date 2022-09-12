@@ -1,6 +1,6 @@
 /* 
 ** 輸入三個整數 a、b、c，印出此三值的最大值、最小值、總和及平均值
-** Usage : $ main int1 int2 int3
+** Usage : $ main int1 int2 int3 
 */
 
 
