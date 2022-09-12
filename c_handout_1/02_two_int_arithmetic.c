@@ -3,6 +3,7 @@
 **  ---------------------------------------------------------------
 **  1 * preprocessor
 **  2 * read char array from command line
+** *** test with online GDB
 */
 #include <stdio.h>
 #include <stdlib.h>
