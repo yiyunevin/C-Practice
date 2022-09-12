@@ -1,6 +1,9 @@
 /* 
 ** 輸入三個整數 a、b、c，印出此三值的最大值、最小值、總和及平均值
 ** ---------------------------------------------------------------
+** 1 * preprocessor (define)
+** 2 * read from command line
+** 3 * char to integer
 ** *** test with online GDB
 */
 
