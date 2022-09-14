@@ -16,6 +16,14 @@ int main ()
   
   printf("SHRT_MAX = %d; SHRT_MIN = %d.\n", SHRT_MAX, SHRT_MIN);    // SHRT_MAX = 32767; SHRT_MIN = -32768.
   printf("a = %d; b = a + 800 = %d.\n", a, b);                      // a = 32000; b = a + 800 = -32736.
+  
+  short c = 32000;
+  int d = (int)c + 800;
+  
+  printf("INT_MAX = %d; INT_MIN = %d.\n", INT_MAX, INT_MIN);    
+  // INT_MAX = 2147483647; INT_MIN = -2147483648.
+  printf("c = %d; d = c + 800 = %d.\n", c, d);
+  // c = 32000; d = c + 800 = 32800.
 
   return 0;
 }
