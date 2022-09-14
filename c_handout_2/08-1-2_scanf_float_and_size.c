@@ -19,7 +19,7 @@ int main ()
 
   // -- 印出結果 -- //
   // 5位整數 (缺的補齡) + 小數點 + 2位小數 = 8 位
-  printf("%08.2f\n", f);
+  printf("You entered: %08.2f\n", f);
   
   return 0;
 }
