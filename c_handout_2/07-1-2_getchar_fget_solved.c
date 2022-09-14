@@ -21,31 +21,30 @@ int main ()
 {
   char c;
   char s[100];
-  
+
   // --- gets / fgets & puts --- //
-  
+
   printf("Enter a string: ");
   // gets(s); // warning: desprecated
   fgets(s, 100, stdin);
   printf("You entered: ");
   puts(s);
   printf("\n");
-  
+
   // --- getchar & putchar --- //
-  
+
   printf("Enter a character: ");
   c = getchar();
   printf("You entered: ");
   putchar(c);
-  
+
   while(getchar()!='\n');
-  
+
   printf("\n\n");
 
   // --- gets / fgets & puts --- //
-  
+
   printf("Enter a string: ");
-  // gets(s); // warning: desprecated
   fgets(s, 100, stdin);
   printf("You entered: ");
   puts(s);
