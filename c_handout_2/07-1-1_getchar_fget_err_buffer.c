@@ -4,12 +4,13 @@
 ** Enter a string: apple
 ** You entered: apple
 ** 
+**
 ** Enter a character: apple
 ** You entered: a
 ** Enter a string: You entered: pple
 ** ------------------------------------------------------------------------------
 ** * getchar & putchar
-** * gets / fgets & puts
+** * gets / fgets & puts (本身就帶一次 newline)
 ** * buffer
 */
 
