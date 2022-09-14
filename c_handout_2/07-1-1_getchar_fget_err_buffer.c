@@ -1,6 +1,6 @@
 /* 透過 fgets 與 puts 得到且輸出一字串，接著透過 getchar 與 putchar 得到且輸出一字元
 ** ------------------------------------------------------------------------------
-** result:
+** result 1:
 ** Enter a string: apple
 ** You entered: apple
 ** 
@@ -8,6 +8,15 @@
 ** Enter a character: apple
 ** You entered: a
 ** Enter a string: You entered: pple
+** ------------------------------------------------------------------------------
+** result 2:
+** Enter a string: apple
+** You entered: apple
+** 
+**
+** Enter a character: apple
+** You entered: a
+** Enter a string: You entered:
 ** ------------------------------------------------------------------------------
 ** * getchar & putchar
 ** * gets / fgets & puts (本身就帶一次 newline)
