@@ -12,12 +12,11 @@ int main ()
   printf("Enter an integer: ");
   scanf("%d", &a);
   for (i=2; i<a; i++){          // check each number less than a
-      for(j=2; j<=i/j; j++)     // check each factor
-          if ( !(i%j) )
-              break;
-      if(j > i/j)               // didn't break during the for loop
-          printf("%d ", i);
+    for(j=2; j<=i/j; j++)     // check each factor
+      if ( !(i%j) )
+        break;
+    if(j > i/j)               // didn't break during the for loop
+        printf("%d ", i);
   }
-  
   return 0;
 }
