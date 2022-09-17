@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 {
   FILE* fp1;
   FILE* fp2;
-  // read file
   fp1 = fopen(argv[1], "r");
   fp2 = fopen(argv[2], "w");
   if(fp1 == NULL){
@@ -31,7 +30,6 @@ int main(int argc, char *argv[])
     if(buff[0]<97)  // ascii 97 = a
       fprintf(fp2, "%s:", buff);
   }
-  fprintf(fp2,"\b");
   fclose(fp1);
   fclose(fp2);
   return 0;
