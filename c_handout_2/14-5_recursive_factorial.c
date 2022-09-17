@@ -1,3 +1,9 @@
+/* 撰寫一遞迴函式完成階層計算
+** ----------------------------
+** * recursive
+** * unsigned long overflow (if n >= 20)
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 // recursive
