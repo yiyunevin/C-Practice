@@ -2,6 +2,7 @@
 ** ------------------------------------------------------------------
 ** * Usage ./13_file_num_sum f_num_sum.txt 
 ** ------------------------------------------------------------------
+** * read from command line
 ** * read text file
 ** * stdlib.h / exit(1)
 ** * read file seperated by space
