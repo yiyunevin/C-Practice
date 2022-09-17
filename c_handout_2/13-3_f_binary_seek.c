@@ -1,3 +1,13 @@
+/* 命令列輸入：讀取檔案（內容：abcdefghijk）、寫入檔案、從讀取檔案開頭位移的位元數、寫入位元數。讀寫皆以二進位方式開啟，每次讀取 1 個位元組
+** ------------------------------------------------------------------
+** * Usage  : ./13-3_f_binary_seek.exe f_binary_seek.r out.w 3 4
+** * Result : out.txt >> defg
+** ------------------------------------------------------------------
+** * read from command line
+** * read/write binary file
+** * fseek 
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(int argc, char *argv[]){
