@@ -1,3 +1,9 @@
+/* 宣告 name 及 desc 為 char 陣列指標，由命令列提供字串長度配置記憶體長度，並在退出前釋出記憶體。用 for 迴圈處理多筆資料
+** -----------------------------------------
+** Usage: ./main David EE Fanny CSIE
+** -----------------------------------------
+** * malloc / free / stdlib.h
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
