@@ -1,3 +1,9 @@
+/* 將 18-1 的 sturct 改由 union 實現，宣告 name[13]、並於最後印出 union student 所占組數
+** -----------------------------------------------------------------------------------
+** * union
+** * size of union
+*/
+
 #include<stdio.h>
 #include<string.h>
 union Student {
