@@ -1,3 +1,12 @@
+/* 定義 structure student 包含 char name[20]、unsigned int sid、unsigned short score，從命令列指定檔案輸入資料，並存入 structure 中，再依序印出
+** * 透過函式 printGrade 傳入結構「指標」印出資訊
+** * 指定變數 score 位元數 6（無法儲存 64 以上的數字）
+--------------------------------------------------------------------
+** * Structure (call by reference)
+** * bits field
+** * print / scan unsigned / short
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -24,8 +33,6 @@ int main(int argc, char *argv[])
         printf("File %s not exist. \n", argv[1]);
         return 2;
     }
-    
-    // Read File & Store as Structure
     struct Student stu;
     unsigned int sid;
     unsigned short score;
