@@ -17,4 +17,5 @@ int main()
     unsigned long sec;
     getSeconds(&sec);
     printf("UNIX/POSIX Time = %ld. \n", sec);
+    return 0;
 }
