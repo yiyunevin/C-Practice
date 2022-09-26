@@ -1,3 +1,10 @@
+/* 宣告 string 的指標陣列，並以 for 迴圈連續印出從第 x (scanf 輸入) 個起所有元素，將所有元素都改為大寫且以冒號分隔
+** -----------------------------------------------------------------------------------------------------------
+** * pointer array / string array
+** * length of pointer array
+** * string literal (automatic convert / segmentation fault)
+*/
+
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
