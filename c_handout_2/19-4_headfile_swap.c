@@ -2,6 +2,7 @@
 ** ------------------------------------------------------------------------
 ** * headfile
 ** * compile multiple files
+** * check if a "string" is an integer
 */
 
 #include"swap.h"
