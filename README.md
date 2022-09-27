@@ -1,12 +1,11 @@
 # C practice
 
 ## Handout 1
-
-> [參考資料連結](https://web.fg.tp.edu.tw/~earth/vision/study/cprogram06/C_handout.pdf)
+<!-- [參考資料連結](https://web.fg.tp.edu.tw/~earth/vision/study/cprogram06/C_handout.pdf) -->
 
 ## Handout 2
 
-> [參考資料連結](http://dywang.csie.cyut.edu.tw/dywang/download/pdf/clanguage.pdf)
+<!-- [參考資料連結](http://dywang.csie.cyut.edu.tw/dywang/download/pdf/clanguage.pdf) -->
 
 + Chapter 6 資料型態
 + Chapter 7 標準輸出與輸入
