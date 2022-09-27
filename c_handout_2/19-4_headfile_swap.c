@@ -1,3 +1,9 @@
+/* 撰寫多個檔案：swap.h 與 swap.cpp，call by reference 且 x、y 由命令列取得 (with swap.h, swap.c)
+** ------------------------------------------------------------------------
+** * headfile
+** * compile multiple files
+*/
+
 #include"swap.h"
 #include<stdio.h>
 #include<stdlib.h>
