@@ -1,3 +1,9 @@
+/* 定義 MIN(x, y)返回較小的數字，x、y由命令列取得，若有其中之一非數字則程式結束
+** --------------------------------------------------------------------------
+** * #define
+** * check if a "string" is a number (isdigit -> a char)
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
